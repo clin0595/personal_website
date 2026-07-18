@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'Mohave', Times;
+  background-color: white;
 }
 
 .name {
@@ -118,5 +119,5 @@
 .projectCards {
   width: 95vw;
   justify-self: center;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }

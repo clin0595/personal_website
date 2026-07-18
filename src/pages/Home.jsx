@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import githubLogo from "../assets/githubLogo.svg";
 import ProjectCard from '../components/ProjectCard';
 import { useOutletContext } from 'react-router';
+import { Link } from 'react-router';
 
 
 function Home() {
@@ -24,9 +25,9 @@ function Home() {
                         </div>
 
                         <div className={styles.rightside}>
-                            <a href='https://github.com/clin0595' target="_blank" rel="noopener noreferrer">
+                            <Link to='https://github.com/clin0595' target="_blank" rel="noopener noreferrer">
                                 <img src={githubLogo} className={styles.githubLogo}/>
-                            </a>
+                            </Link>
                             <h1 className={styles.rightsideName}>LIN</h1>
                         </div>
                     </div>

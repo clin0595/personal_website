@@ -4,6 +4,7 @@ import beeWitchedImg1 from "./assets/beeWitchedImg1.png";
 import bigRedPath from "./assets/bigRedPath.png";
 import susbWebsite from "./assets/susbWebsite.png";
 import ohMyCamel from "./assets/ohMyCamelTitleScreen.png"
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
               id: 3, 
               image: susbWebsite, 
               title: "Sustainabytes", 
-              tools: ["HTML", "CSS", "React"], 
+              tools: ["HTML", "CSS", "React", "Figma"], 
               description: "Home site for Cornell's Computational Sustainability Club (Sustainabytes).", 
               page: "/", 
               titleGradient: "#ebcae8, #51b976", 
@@ -43,7 +44,7 @@ function App() {
               image: ohMyCamel, 
               title: "Oh My Camel", 
               tools: ["OCaml", "Raylib"], 
-              description: "A pet simulator game made in OCaml for CS course CS 3110: Data Structures and Functional Programming.", 
+              description: "A pet simulator game coded in OCaml for CS course CS 3110: Data Structures and Functional Programming.", 
               page: "/", 
               titleGradient: "#93ce5a, #d6865c", 
               toolboxColor: "#93ce5a"
@@ -56,6 +57,7 @@ function App() {
       <main>
         <Outlet context={projects}/>
       </main>
+      <Footer/>
     </div>
   )
 }

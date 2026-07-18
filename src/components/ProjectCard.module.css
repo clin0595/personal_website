@@ -16,7 +16,7 @@
     font-size: clamp(1.25rem, 2vw, 2rem);
     line-height: 1.1;
     white-space: nowrap;
-    overflow: scroll;
+    overflow:hidden;
     text-overflow:ellipsis;
 }
 
@@ -31,6 +31,7 @@
     padding-left: 2vw;
     padding-right: 2vw;
     background-color: var(--tool-color, #ffffff);
+    box-shadow: inset 1px 4px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 .projectDescription {
