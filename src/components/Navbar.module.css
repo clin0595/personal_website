@@ -49,3 +49,28 @@
 }
 
 
+@media (min-width: 768px) {
+    .logo {
+        width: 20vw;
+    }
+
+    .rightsideLinks h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .logo {
+        width: 10vw;
+    }
+
+    .rightsideLinks {
+        gap: 1vw;
+        transform: translateY(-0.5rem);
+    }
+
+    .rightsideLinks h2 {
+        font-size: 1.7vw;
+    }
+}
