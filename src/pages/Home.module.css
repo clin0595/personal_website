@@ -121,3 +121,92 @@
   justify-self: center;
   padding-bottom: 5vh;
 }
+
+@media (min-width: 768px) {
+  .glass_card {
+    margin-top: 10vh;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftsideUni {
+    margin-top: -4vw;
+  }
+
+  .rightside {
+    margin-left: -2vw;
+  }
+
+  .rightsideName {
+    margin-bottom: -3.9vw;
+  }
+
+  .hero h1 {
+    font-size: 12vw;
+  }
+
+  .hero h3 {
+    font-size: 5vw;
+  }
+
+  .githubLogo {
+    width: 7vw;
+    justify-self: center;
+    margin-left: -1.5vw;
+    margin-bottom: -2.5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .glass_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 70vh;
+    margin-top: 15vh;
+  }
+
+  .name {
+    margin-left: 5vw;
+  }
+
+  .heroDescription {
+    font-size: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: end;
+  }
+
+  .leftsideUni {
+    margin-top: -3vw;
+  }
+
+  .rightside {
+    margin-left: -1.1vw;
+  }
+
+  .rightsideName {
+    margin-bottom: -3.1vw;
+  }
+
+  .hero h1 {
+    font-size: 8vw;
+  }
+
+  .hero h3 {
+    font-size: 3vw;
+  }
+
+  .githubLogo {
+    width: 4vw;
+    justify-self: center;
+    margin-left: -1.1vw;
+    margin-bottom: -1.8vw;
+  }
+
+  /* Main body (projects) */
+
+}
