@@ -1,0 +1,122 @@
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Center your content over the background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Mohave', Times;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftsideUni {
+  margin-top: -8vw;
+  padding-left: 1vw;
+}
+
+.rightside {
+  margin-left: -3vw;
+}
+
+.rightsideName {
+  margin-bottom: -7vw;
+}
+
+.hero h1, h2, h3 {
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 19vw;
+}
+
+.hero h3 {
+  font-size: 8vw;
+}
+
+.githubLogo {
+  width: 10vw;
+  justify-self: center;
+  margin-left: -2vw;
+  margin-bottom: -4vw;
+}
+
+.glass_card {
+  position: relative; /* Anchor for the texture layer */
+  overflow: hidden;   /* Keeps the texture within the rounded corners */
+  border-radius: 16px; 
+  padding: 2.5rem;
+  
+  /* 1. FIGMA 10% OPACITY WHITE */
+  background: rgba(255, 255, 255, 0.5); 
+  
+  /* 2. THE GLASS BLUR (Works on Chrome, Safari, Firefox, Edge) */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(5px);
+
+  /* THE MAGIC LINE: Fades all four edges to 100% transparency. 
+     The mask tells the card: "Be solid in the center, and start fading out 
+     as you get within 15% of the outer boundaries." */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+                      linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent),
+              linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+              
+  /* Merges the horizontal and vertical fade masks together */
+  -webkit-mask-composite: source-in;
+  mask-composite: intersect;
+}
+
+/* 4. THE NOISY TEXTURE LAYER (SVG Data-URI) */
+.glass_card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Keeps the texture behind your text but on top of the glass */
+  
+  /* An ultra-lightweight, seamless SVG noise overlay */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  
+  /* Make the grain incredibly faint and elegant (3% to 5% opacity is perfect) */
+  opacity: 0.40; 
+  pointer-events: none; /* Make sure users can still select text through it */
+}
+
+.heroDescription {
+  font-family: 'Google Sans Flex', Times;
+  font-weight: 400;
+  font-size: 2.5vh;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+.homeBody {
+  background-color: black;
+}
+
+.homeBody h1 {
+  color: white;
+  font-family: 'Mohave';
+  font-weight: 300;
+  font-size: 5vh;
+  text-align: center;
+
+  padding-top: 5vh;
+  padding-bottom: 4vh;
+}
+
+.projectCards {
+  width: 95vw;
+  justify-self: center;
+  padding-bottom: 10vh;
+}

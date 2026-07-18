@@ -1,0 +1,594 @@
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Bold.woff2') format('woff2'),
+        url('fonts/Mohave-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-BoldItalic.woff2') format('woff2'),
+        url('fonts/Mohave-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Italic.woff2') format('woff2'),
+        url('fonts/Mohave-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Light.woff2') format('woff2'),
+        url('fonts/Mohave-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-LightItalic.woff2') format('woff2'),
+        url('fonts/Mohave-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Medium.woff2') format('woff2'),
+        url('fonts/Mohave-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-MediumItalic.woff2') format('woff2'),
+        url('fonts/Mohave-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Regular.woff2') format('woff2'),
+        url('fonts/Mohave-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-SemiBold.woff2') format('woff2'),
+        url('fonts/Mohave-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Mohave-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-Light_1.woff2') format('woff2'),
+        url('fonts/Mohave-Light_1.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mohave';
+    src: url('fonts/Mohave-LightItalic_1.woff2') format('woff2'),
+        url('fonts/Mohave-LightItalic_1.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* Google Sans Flex*/
+@font-face {
+    font-family: 'Google Sans Flex';
+    src: url('fonts/GoogleSansFlex-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Light.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Bold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Black.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Bold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-ExtraLight.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Light.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Medium.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-SemiBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 9pt';
+    src: url('fonts/GoogleSansFlex9pt-Thin.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex9pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Black.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Bold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-ExtraLight.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Light.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Medium.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-SemiBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 24pt';
+    src: url('fonts/GoogleSansFlex24pt-Thin.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Black.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Bold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-ExtraLight.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Light.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Medium.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-SemiBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 36pt';
+    src: url('fonts/GoogleSansFlex36pt-Thin.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex36pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Black.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Bold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-ExtraBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-ExtraLight.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Medium.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-SemiBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 72pt';
+    src: url('fonts/GoogleSansFlex72pt-Thin.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex72pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Black.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-ExtraLight.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Light.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Medium.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Regular.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-SemiBold.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Google Sans Flex 120pt';
+    src: url('fonts/GoogleSansFlex120pt-Thin.woff2') format('woff2'),
+        url('fonts/GoogleSansFlex120pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Allow percentage-based heights */
+html, body, #root {
+  height: 100%;
+}
+
+/* 4. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 5. Remove built-in form typography styles */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 6. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.floatOnce:hover {
+  animation-name: floatAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.floatInfinite:hover {
+  animation-name: floatAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.leftRightGradient {
+    font-size: 72px;
+    background: -webkit-linear-gradient(left, var(--gradient-colors, rgb(160, 160, 160), rgb(255, 255, 255)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,51 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    padding-top: clamp(40px, calc(4rem - 2vw), 50px);
+    padding-bottom: clamp(40px, calc(4rem - 2vw), 70px);
+
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.8) 0%, 
+        rgba(0, 0, 0, 0.5) 60%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+
+    font-family: 'Mohave', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.logo {
+    width: 25vw;
+}
+
+.rightsideLinks {
+    align-self: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+.rightsideLinks h2 {
+    font-weight: inherit;
+    font-size: 5vw;
+}
+
+.rightsideLinks a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
