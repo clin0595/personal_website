@@ -31,7 +31,7 @@ function ProjectCard({ image, title, tools, description, page, titleGradient, to
                 {description}
             </div>
 
-            <Link to={page}>
+            <Link to={page} className={styles.learnMoreLayout}>
                 <div className={styles.learnMore}>
                     Learn More
                 </div>
