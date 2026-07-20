@@ -2,7 +2,8 @@ import styles from "./Navbar.module.css";
 import logo from "../assets/logo.svg";
 import { Link } from "react-router";
 
-function Navbar() {
+function Navbar({ projects = [] }) {
+    
     return (
         <div className={styles.navbar}>
             <Link to="/" className='floatInfinite'>
@@ -10,7 +11,22 @@ function Navbar() {
             </Link>
 
             <div className={styles.rightsideLinks}>
-                <Link to="/projects" className="floatOnceMedium"> <h2>PROJECTS</h2> </Link>
+                <div className={`${styles.projectsDropdownContainer}` }>
+
+                    <Link to="/projects" className="floatOnceMedium"><h2>PROJECTS<span className={styles.arrow}>▾</span></h2></Link>
+
+                    <div className={styles.projectsDropdown}>
+                        {projects?.map((project) => {
+                        const { id, title, page } = project;
+                        return (
+                            <Link key={id || title} to={page || "/projects"} className={styles.projectDropdownItem}>
+                                {title}
+                            </Link>
+                        )
+                        })}
+                    </div>
+                    
+                </div>
                 <Link to="https://github.com/clin0595"  target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>GITHUB</h2> </Link>
                 <Link to="/about" className="floatOnceMedium"> <h2>ABOUT ME</h2> </Link>
             </div>

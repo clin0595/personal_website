@@ -15,7 +15,7 @@ function App() {
               title: "BeeWitched", 
               tools: ["Java", "LibGDX", "Figma"], 
               description: "A cozy two-phased desktop game perfect for all ages! Published on Steam.", 
-              page: "/", 
+              page: "/projects#BeeWitched", 
               titleGradient: "#f6bc62, #9e58b1", 
               toolboxColor: "#f6bc62"
           },
@@ -25,7 +25,7 @@ function App() {
               title: "Big Red Path", 
               tools: ["Kotlin"], 
               description: "A course and schedule planning Android app made for Cornell University students. Won Best Overall in Cornell AppDev’s Spring 2026 Hackathon.", 
-              page: "/", 
+              page: "/projects#BigRedPath", 
               titleGradient: "#f6f1e8, #8b1818", 
               toolboxColor: "#f6f1e8"
           },
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
+      <Navbar projects={projects} />
       <main>
         <Outlet context={projects}/>
       </main>

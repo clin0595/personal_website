@@ -48,6 +48,52 @@
     color: inherit;
 }
 
+.projectsDropdownContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.projectsDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 170px;
+  background-color: #111111;
+  border: 1px solid #333333;
+  padding-top: 8px; 
+  padding-bottom: 8px; 
+  z-index: 100;
+
+  opacity: 0; /* for fade in (since visibility does not have fade in animation */
+  visibility: hidden; /* turns off pointer features so user does not accidentally click on invisible link */
+  transform: translateY(10px);
+
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+.projectsDropdownContainer:hover .projectsDropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.projectDropdownItem {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  color: #cfcfcf;
+  text-decoration: none;
+  font-family: 'Google Sans Flex', sans-serif;
+  font-size: 0.95rem;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.projectDropdownItem:hover {
+  background-color: #222222;
+  color: #67b1ff;
+}
+
 
 @media (min-width: 768px) {
     .logo {
