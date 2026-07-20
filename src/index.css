@@ -556,10 +556,16 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-.floatOnce:hover {
+.floatOnceHigh:hover {
   transform: translateY(-8px);
-  transition: transform 1s ease-out;
+  transition: transform 1s ease-in-out;
 }
+
+.floatOnceMedium:hover {
+  transform: translateY(-4px);
+  transition: transform 0.5s ease-in-out;
+}
+
 
 .floatInfinite:hover {
   animation-name: floatUpDown;

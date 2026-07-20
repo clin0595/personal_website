@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css"
 
 function ProjectCard({ image, title, tools, description, page, titleGradient, toolboxColor }) {
     return (
-        <div className={styles.projectCard}>
+        <div className={`${styles.projectCard} floatOnceHigh`}>
             <img src={image} className={styles.projectImg}/>
 
             <h2 
@@ -32,7 +32,7 @@ function ProjectCard({ image, title, tools, description, page, titleGradient, to
             </div>
 
             <Link to={page} className={styles.learnMoreLayout}>
-                <div className={styles.learnMore}>
+                <div className={`${styles.learnMore} floatOnceMedium`}>
                     Learn More
                 </div>
             </Link>

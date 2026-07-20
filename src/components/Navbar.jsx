@@ -10,9 +10,9 @@ function Navbar() {
             </Link>
 
             <div className={styles.rightsideLinks}>
-                <Link to="/projects" className="floatOnce"> <h2>PROJECTS</h2> </Link>
-                <Link to="https://github.com/clin0595"  target="_blank" rel="noopener noreferrer" className="floatOnce"> <h2>GITHUB</h2> </Link>
-                <Link to="/about" className="floatOnce"> <h2>ABOUT ME</h2> </Link>
+                <Link to="/projects" className="floatOnceMedium"> <h2>PROJECTS</h2> </Link>
+                <Link to="https://github.com/clin0595"  target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>GITHUB</h2> </Link>
+                <Link to="/about" className="floatOnceMedium"> <h2>ABOUT ME</h2> </Link>
             </div>
 
             

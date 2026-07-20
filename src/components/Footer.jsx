@@ -14,11 +14,11 @@ function Footer() {
 
             <div className={styles.footerContent}>
                 <Link to="https://github.com/clin0595" target="_blank" rel="noopener noreferrer">
-                    <img src={githubLogo} className={styles.footerGithubLogo} alt="GitHub Profile" />
+                    <img src={githubLogo} className={`${styles.footerGithubLogo} floatOnceMedium`} alt="GitHub Profile" />
                 </Link>
                 
                 <a href="mailto:cinnielin123@gmail.com">
-                    <img src={emailSvg} className={styles.footerEmail} alt="Email" />
+                    <img src={emailSvg} className={`${styles.footerEmail} floatOnceMedium`} alt="Email" />
                 </a>
 
                
