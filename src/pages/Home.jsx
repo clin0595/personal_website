@@ -26,7 +26,7 @@ function Home() {
 
                         <div className={styles.rightside}>
                             <Link to='https://github.com/clin0595' target="_blank" rel="noopener noreferrer">
-                                <img src={githubLogo} className={styles.githubLogo}/>
+                                <img src={githubLogo} className={`${styles.githubLogo} floatOnce`}/>
                             </Link>
                             <h1 className={styles.rightsideName}>LIN</h1>
                         </div>
