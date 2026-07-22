@@ -1,9 +1,15 @@
 import { Outlet } from "react-router";
 import Navbar from "./components/Navbar";
+
 import beeWitchedImg1 from "./assets/beeWitchedImg1.png";
+import beeWitchedTrailer from "./assets/beeWitchedTrailer.mp4";
 import bigRedPath from "./assets/bigRedPath.png";
+import bigRedPathIntro from "./assets/bigRedPathIntroImg.png";
 import susbWebsite from "./assets/susbWebsite.png";
-import ohMyCamel from "./assets/ohMyCamelTitleScreen.png"
+import ohMyCamel from "./assets/ohMyCamelTitleScreen.png";
+import ohMyCamelVideo from "./assets/ohMyCamelGame.mp4"
+
+
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,7 +23,13 @@ function App() {
               description: "A cozy two-phased desktop game perfect for all ages! Published on Steam.", 
               page: "/projects#BeeWitched", 
               titleGradient: "#f6bc62, #9e58b1", 
-              toolboxColor: "#f6bc62"
+              toolboxColor: "#f6bc62",
+              media: {
+                type: "video",
+                src: beeWitchedTrailer,
+                poster: beeWitchedImg1, // thumbnail
+                alt: "BeeWitched Trailer"
+              }
           },
           {   
               id: 2, 
@@ -27,7 +39,12 @@ function App() {
               description: "A course and schedule planning Android app made for Cornell University students. Won Best Overall in Cornell AppDev’s Spring 2026 Hackathon.", 
               page: "/projects#BigRedPath", 
               titleGradient: "#f6f1e8, #8b1818", 
-              toolboxColor: "#f6f1e8"
+              toolboxColor: "#f6f1e8",
+              media: {
+                type: "image",
+                src: bigRedPathIntro,
+                alt: "Big Red Path Image"
+              }
           },
           {   
               id: 3, 
@@ -35,9 +52,14 @@ function App() {
               title: "Sustainabytes", 
               tools: ["HTML", "CSS", "React", "Figma"], 
               description: "Home site for Cornell's Computational Sustainability Club (Sustainabytes).", 
-              page: "/", 
+              page: "/projects#Sustainabytes", 
               titleGradient: "#ebcae8, #51b976", 
-              toolboxColor: "#ebcae8"
+              toolboxColor: "#ebcae8",
+               media: {
+                type: "image",
+                src: susbWebsite,
+                alt: "Sustainabytes Website Image"
+              }
           },
           {   
               id: 4, 
@@ -45,9 +67,14 @@ function App() {
               title: "Oh My Camel", 
               tools: ["OCaml", "Raylib"], 
               description: "A pet simulator game coded in OCaml for CS course CS 3110: Data Structures and Functional Programming.", 
-              page: "/", 
+              page: "/projects#OhMyCamel", 
               titleGradient: "#93ce5a, #d6865c", 
-              toolboxColor: "#93ce5a"
+              toolboxColor: "#93ce5a",
+              media: {
+                type: "video",
+                src: ohMyCamelVideo,
+                alt: "Oh My Camel Gameplay"
+              }
           }
       ]
 

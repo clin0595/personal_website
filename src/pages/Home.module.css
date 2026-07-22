@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Mohave', Times;
   background-color: white;
 }
 
@@ -107,7 +106,6 @@
 
 .homeBody h1 {
   color: white;
-  font-family: 'Mohave';
   font-weight: 300;
   font-size: 5vh;
   text-align: center;

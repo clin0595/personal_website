@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import styles from "./ProjectCard.module.css"
+import Tools from "./Tools";
 
 function ProjectCard({ image, title, tools, description, page, titleGradient, toolboxColor }) {
     return (
@@ -13,19 +14,10 @@ function ProjectCard({ image, title, tools, description, page, titleGradient, to
                 {title}
             </h2>
 
-            <div className={styles.toolCards}>
-                {tools.map((tool, index) => {
-                    return (
-                        <div 
-                            key={index} 
-                            className={styles.toolBox}
-                            style={{ '--tool-color': toolboxColor }}
-                        >
-                            {tool}
-                        </div>
-                    )
-                })}
-            </div>
+            <Tools 
+                tools={tools}
+                toolboxColor={toolboxColor}
+            />
 
             <div className={styles.projectDescription}>
                 {description}

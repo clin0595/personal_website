@@ -1,13 +1,14 @@
-import styles from "./BigRedPath.module.css";
+// import styles from "./BigRedPath.module.css";
+import ProjectIntro from "./ProjectIntro";
 
 function BigRedPath() {
     return(
         <section id="BigRedPath">
-            <h1 className={styles.brph1}>HI!</h1>
-            <h1 className={styles.brph1}>HI!</h1>
-            <h1 className={styles.brph1}>HI!</h1>
-            <h1 className={styles.brph1}>HI!</h1>
-            <h1 className={styles.brph1}>HI!</h1>
+            <ProjectIntro
+                name="Big Red Path"
+            />
+
+            <h3>Won the Best Overall Prize out of 8 teams!</h3>
         </section>
 
     )

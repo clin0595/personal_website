@@ -1,8 +1,11 @@
-// import styles from "./Projects.module.css";
+import styles from "./Projects.module.css";
 import BeeWitched from "../components/BeeWitched";
 import BigRedPath from "../components/BigRedPath";
+
+import OhMyCamel from "../components/OhMyCamel";
 import { useEffect } from "react";
 import { useLocation } from "react-router";
+import Sustainabytes from "../components/Sustainabytes";
 
 function Projects() {
     const { hash } = useLocation(); /* Extracts the "#BigRedPath" or "#BeeWitched" from the URL */
@@ -22,8 +25,14 @@ function Projects() {
 
     return (
         <div>
-            <BeeWitched />
-            <BigRedPath />
+            <h1 className={styles.projectPgTitle}>Projects</h1>
+            <div className={styles.projectsContainer}>
+                <BeeWitched />
+                <BigRedPath />
+                <Sustainabytes />
+                <OhMyCamel />
+            </div>
+
         </div>
     )
 }

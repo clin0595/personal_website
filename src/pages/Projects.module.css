@@ -1,0 +1,11 @@
+.projectPgTitle {
+    color: white;
+    margin-top: clamp(130px, calc(4rem - 2vw), 150px);
+    font-size: 5rem;
+    justify-self: center;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+}

@@ -46,7 +46,6 @@
 }
 
 .projectTitle {
-    font-family: 'Mohave', Times;
     font-weight: 300;
     color: rgb(255, 255, 255);
     padding-top: 1vh;
@@ -55,21 +54,6 @@
     white-space: nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
-}
-
-.toolCards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1vw;
-    font-family: 'Mohave', Times;
-    font-size: clamp(1rem, 2vw + 0.5rem, 2rem);
-}
-
-.toolBox {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    background-color: var(--tool-color, #ffffff);
-    box-shadow: inset 1px 4px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 .projectDescription {

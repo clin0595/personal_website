@@ -1,0 +1,33 @@
+.projectVidContainer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    justify-content: space-between;
+}
+
+.projectIntroTitle {
+    font-weight: 400;
+    display: inline-block;
+    font-size: clamp(2rem, 5vw, 4.5rem);
+}
+
+.projectIntroVidImg {
+    justify-self: center;
+    width: 95vw;
+}
+
+@media (min-width: 768px) {
+    .projectVidContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1200px) {
+  
+}
