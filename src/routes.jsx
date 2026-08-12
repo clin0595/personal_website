@@ -1,7 +1,7 @@
 import App from "./App";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import About from "./pages/About";
+import Resume from "./pages/Resume";
 import ErrorPage from "./pages/ErrorPage";
 
 const routes = [
@@ -12,7 +12,7 @@ const routes = [
         children: [
             { path: "/", element: <Home /> },
             { path: "/projects", element: <Projects /> },
-            { path: "/about", element: <About /> }
+            { path: "/resume", element: <Resume /> }
         ]
     }
 

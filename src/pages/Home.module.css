@@ -110,6 +110,11 @@
     font-size: 5vw;
   }
 
+  .heroDescription {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+
   .githubLogo {
     width: 7vw;
     justify-self: center;
@@ -146,7 +151,7 @@
     font-size: 3vh;
     margin-left: 5vw;
     margin-right: 5vw;
-    text-align: end;
+    text-align: center;
   }
 
   .leftsideUni {

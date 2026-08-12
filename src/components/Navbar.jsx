@@ -28,7 +28,7 @@ function Navbar({ projects = [] }) {
                     
                 </div>
                 <Link to="https://github.com/clin0595"  target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>GITHUB</h2> </Link>
-                <Link to="/about" className="floatOnceMedium"> <h2>ABOUT ME</h2> </Link>
+                <Link to="/resume" className="floatOnceMedium"> <h2>RESUME</h2> </Link>
             </div>
 
             
