@@ -16,7 +16,7 @@ function Home() {
                 className={styles.hero} 
                 style={{ backgroundImage: `url(${heroBg})` }}>
 
-                <div className={styles.glass_card}>
+                <div className="glass_card">
 
                     <div className={styles.name}>
                         <div className={styles.leftside}>
@@ -34,7 +34,7 @@ function Home() {
 
                     <div>
                         <h4 className={styles.heroDescription}>I am a 3rd year Computer Science student at Cornell University,
-                            with interests in <strong>Web Development</strong>, <strong>Design</strong>, <strong>Game Development</strong>, and more!
+                            with interests in <strong> Fullstack Web Development</strong>, <strong>Design</strong>, <strong>Game Development</strong>, and more!
                         </h4>
                     </div>
 

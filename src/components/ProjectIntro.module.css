@@ -1,3 +1,9 @@
+.projectIntroContainer {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 5vh;
+}
+
 .projectVidContainer {
     margin-top: 5vh;
     display: flex;
@@ -6,6 +12,7 @@
     padding-left: 3vw;
     padding-right: 3vw;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .projectIntroTitle {
@@ -19,6 +26,65 @@
     width: 95vw;
 }
 
+.projectIntroText {
+    color: rgb(211, 211, 211);
+}
+
+.projectIntroTextTitle {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    color: var(--titleColor, #ffffff);
+    text-shadow: 1px 1px 0px rgb(148, 147, 147);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projectIntroTextRole {
+    font-family: 'Mohave', serif;
+    font-size: clamp(1.5rem, 2.4vw, 2.5rem);;
+    color: rgb(255, 255, 255);
+}
+
+.projectIntroTextList {
+    font-family: 'Google Sans Flex', sans-serif;
+}
+
+.projectIntroText ul {
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.projectIntroText li {
+  margin-bottom: 0.25rem;
+}
+
+.projectIntroTextTakeaway {
+    padding-top: 10px;
+    font-family: 'Google Sans Flex', sans-serif;
+    color: #ffffff;
+}
+
+.projectIntroTextLink {
+    font-family: 'Mohave', Times;
+    font-weight: 400;
+    font-size: 3vh;
+    color: #551a8b;
+    background-color: #67b1ff;
+    width: clamp(250px, 12vw, 400px);
+    text-align: center;
+    justify-self: end;
+    margin-top: 1vh;
+    text-decoration: none;
+}
+
+
+.projectIntroTextLink:hover,
+.projectIntroTextLink:active,
+.projectIntroTextLink:visited {
+    color: #551a8b;
+}
+
 @media (min-width: 768px) {
     .projectVidContainer {
         display: flex;
@@ -26,8 +92,17 @@
         align-items: center;
         justify-content: space-between;
     }
+
 }
 
 @media (min-width: 1200px) {
-  
+    .videoText {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+
 }

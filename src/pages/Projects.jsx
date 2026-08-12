@@ -1,11 +1,9 @@
 import styles from "./Projects.module.css";
-import BeeWitched from "../components/BeeWitched";
-import BigRedPath from "../components/BigRedPath";
-
-import OhMyCamel from "../components/OhMyCamel";
 import { useEffect } from "react";
 import { useLocation } from "react-router";
-import Sustainabytes from "../components/Sustainabytes";
+import ProjectIntro from "../components/ProjectIntro";
+
+import heroBg from '../assets/heroBG.svg';
 
 function Projects() {
     const { hash } = useLocation(); /* Extracts the "#BigRedPath" or "#BeeWitched" from the URL */
@@ -25,12 +23,35 @@ function Projects() {
 
     return (
         <div>
-            <h1 className={styles.projectPgTitle}>Projects</h1>
+            
+            <section
+                className={styles.projectHero} 
+                style={{ backgroundImage: `url(${heroBg})` }}>
+
+                <div className={`${styles.projectPgTitleContainer} glass_card`}>
+                    <h1 className={styles.projectPgTitle}>Projects</h1>
+                </div>
+                
+         
+            </section>
+
+
             <div className={styles.projectsContainer}>
-                <BeeWitched />
-                <BigRedPath />
-                <Sustainabytes />
-                <OhMyCamel />
+                <section id="BeeWitched">
+                    <ProjectIntro name="BeeWitched" />
+                </section>
+
+                <section id="BigRedPath">
+                    <ProjectIntro name="Big Red Path" />
+                </section>
+
+                <section id="Sustainabytes">
+                    <ProjectIntro name="Sustainabytes" />
+                </section>
+
+                <section id="OhMyCamel">
+                    <ProjectIntro name="Oh My Camel" />
+                </section>
             </div>
 
         </div>
