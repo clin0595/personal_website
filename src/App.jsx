@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import Navbar from "./components/Navbar";
 
-import beeWitchedImg1 from "./assets/beeWitchedImg1.png";
+import beeWitchedImg1 from "./assets/BeeWitchedImg1.png";
 import beeWitchedTrailer from "./assets/beeWitchedTrailer.mp4";
 import bigRedPath from "./assets/bigRedPath.png";
 import bigRedPathVideo from "./assets/bigRedPathVideo.mp4";
