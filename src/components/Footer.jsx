@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css"
-import footerStars from "../assets/footerBG.png"
+import footerStars from "../assets/footerBg.png"
 import githubLogo from "../assets/githubLogo.svg";
 import emailSvg from "../assets/email.svg"
 import { Link } from "react-router";
