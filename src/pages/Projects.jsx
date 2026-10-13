@@ -37,6 +37,10 @@ function Projects() {
 
 
             <div className={styles.projectsContainer}>
+                <section id="Uplift">
+                    <ProjectIntro name="Uplift" />
+                </section>
+
                 <section id="BeeWitched">
                     <ProjectIntro name="BeeWitched" />
                 </section>

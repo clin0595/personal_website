@@ -5,7 +5,10 @@ import Tools from "./Tools";
 function ProjectCard({ image, title, tools, description, page, titleGradient, toolboxColor }) {
     return (
         <div className={`${styles.projectCard} floatOnceHigh`}>
-            <img src={image} className={styles.projectImg}/>
+            <Link to={page}>
+                <img src={image} className={styles.projectImg}/>
+            </Link>
+            
 
             <h2 
                 className={`${styles.projectTitle} leftRightGradient`} 

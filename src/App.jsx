@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import Navbar from "./components/Navbar";
 
+import upliftImg1 from "./assets/upliftImg1.png";
 import beeWitchedImg1 from "./assets/BeeWitchedImg1.png";
 import beeWitchedTrailer from "./assets/beeWitchedTrailer.mp4";
 import bigRedPath from "./assets/bigRedPath.png";
@@ -15,8 +16,32 @@ import Footer from "./components/Footer";
 function App() {
 
   const projects = [
-          {   
+              {   
               id: 1, 
+              image: upliftImg1, 
+              title: "Uplift", 
+              tools: ["Kotlin", "Android Jetpack", "MVVM"], 
+              description: "💪 The central hub for all fitness-related resources at Cornell.", 
+              page: "/projects#Uplift", 
+              titleGradient: "#f8e71c, #ffffff", 
+              toolboxColor: "#f8e71c",
+              media: {
+                type: "image",
+                src: upliftImg1,
+                alt: "Uplift Images"
+              },
+              role: "Android Frontend Developer",
+              bullets: [
+                "Building Cornell's all-in-one fitness app, built by Cornell AppDev, in an interdisciplinary 12-member team of iOS and Android developers, designers, and marketers",
+                "Implementing front-end views and logic using Kotlin and Jetpack Compose."
+              ],
+              takeaway: "Refined proficiency in UI development with Jetpack Compose and Kotlin, contributing to a real-world app used by Cornell students.",
+              link: 
+                {btnTitle: "Download on Android", url:"https://play.google.com/store/apps/details?id=com.cornellappdev.uplift&pcampaignid=web_share"}
+              
+          },
+          {   
+              id: 2, 
               image: beeWitchedImg1, 
               title: "BeeWitched", 
               tools: ["Java", "LibGDX", "Figma"], 
@@ -36,13 +61,13 @@ function App() {
                 "Integrated audio and worked on responsive feedback animations.",
                 "Led weekly team meetings to refine gameplay design based off of playtesting critiques and feedback."
               ],
-              takeaway: "Gained hands-on experience in designing game architecture, cross-functional team leadership, and writing technical project specifications.",
+              takeaway: "Acquired hands-on experience in designing game architecture, cross-functional team leadership, and writing technical project specifications.",
               link: 
                 {btnTitle: "Download on Steam", url:"https://store.steampowered.com/app/4811560/BeeWitched/"}
               
           },
           {   
-              id: 2, 
+              id: 3, 
               image: bigRedPath, 
               title: "Big Red Path", 
               tools: ["Kotlin", "Android Jetpack", "MVVM"], 
@@ -62,13 +87,13 @@ function App() {
                 "Integrated API calls and state management to display dynamic course data and student schedules.",
                 "Collaborated with 1 front-end dev and 3 back-end engineers to design and ship the app in 1 week."
               ],
-              takeaway: "Gained expertise with Android UI development, MVVM architecture, and API integration under tight hackathon deadlines.",
+              takeaway: "Cultivated expertise with Android UI development, MVVM architecture, and API integration under tight hackathon deadlines.",
               link: 
                 {btnTitle: "Take a look on Github", url:"https://github.com/Rubindai/SP26-androidAppDevHackathon.git"}
               
           },
           {   
-              id: 3, 
+              id: 4, 
               image: susbWebsite, 
               title: "Sustainabytes", 
               tools: ["HTML", "CSS", "React", "Figma"], 
@@ -93,7 +118,7 @@ function App() {
               
           },
           {   
-              id: 4, 
+              id: 5, 
               image: ohMyCamel, 
               title: "Oh My Camel", 
               tools: ["OCaml", "Raylib"], 

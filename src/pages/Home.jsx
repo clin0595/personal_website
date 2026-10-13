@@ -1,6 +1,7 @@
 import heroBg from '../assets/heroBG.svg';
 import styles from './Home.module.css';
 import githubLogo from "../assets/githubLogo.svg";
+import cornellappdev from "../assets/cornellappdev.png";
 import ProjectCard from '../components/ProjectCard';
 import { useOutletContext } from 'react-router';
 import { Link } from 'react-router';
@@ -36,6 +37,14 @@ function Home() {
                         <h4 className={styles.heroDescription}>I am a 3rd year Computer Science student at Cornell University,
                             with interests in <strong> Fullstack Web Development</strong>, <strong>Android App Development</strong>, and <strong>Game Development</strong>!
                         </h4>
+
+                        <div>
+                            <h4 className={`${styles.heroDescription} ${styles.appdevRow}`}>Android Developer @ 
+                                <Link to='https://www.cornellappdev.com/' target="_blank" rel="noopener noreferrer"> 
+                                    <img src={cornellappdev} className={styles.appdevLogo}/> 
+                                </Link> 
+                            </h4> 
+                        </div>
                     </div>
 
                 </div>
