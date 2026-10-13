@@ -28,7 +28,7 @@ function Navbar({ projects = [] }) {
                     
                 </div>
                 <Link to="https://github.com/clin0595" target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>GITHUB</h2> </Link>
-                <Link to="https://docs.google.com/document/d/1bvEMhMIcpPeWMfuHwEDPgs0zRdncljRt/edit?usp=sharing&ouid=111664987517662023970&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>RESUME</h2> </Link>
+                <Link to="https://docs.google.com/document/d/1le9CuFLJigPDOaI2eiCH4Bwa89dVyhXo/edit?usp=sharing&ouid=109841823060625533006&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" className="floatOnceMedium"> <h2>RESUME</h2> </Link>
             </div>
 
             

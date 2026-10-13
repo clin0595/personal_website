@@ -34,7 +34,7 @@ function Home() {
 
                     <div>
                         <h4 className={styles.heroDescription}>I am a 3rd year Computer Science student at Cornell University,
-                            with interests in <strong> Fullstack Web Development</strong>, <strong>Design</strong>, <strong>Game Development</strong>, and more!
+                            with interests in <strong> Fullstack Web Development</strong>, <strong>Android App Development</strong>, and <strong>Game Development</strong>!
                         </h4>
                     </div>
 

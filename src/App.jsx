@@ -20,7 +20,7 @@ function App() {
               image: beeWitchedImg1, 
               title: "BeeWitched", 
               tools: ["Java", "LibGDX", "Figma"], 
-              description: "🎮 A cozy two-phased desktop game perfect for all ages! Published on Steam.", 
+              description: "🎮 A cozy two-phased desktop game perfect for all ages! Showcased at indie game convention BostonFig 2026 as a Figgie Finalist.", 
               page: "/projects#BeeWitched", 
               titleGradient: "#f6bc62, #9e58b1", 
               toolboxColor: "#f6bc62",
